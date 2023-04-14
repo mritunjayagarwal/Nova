@@ -27,11 +27,54 @@ section{
     padding: 50px 0;
 }
 
+.hero-head{
+    font-size: 100px;
+}
+
+.hero-para{
+    font-size: 25px;
+}
+
+.sec-sub{
+    font-size: 18px;
+}
+
 /* Why Section */
 
 #why{
     background: #183336;
     color: #fff;
+}
+
+.why-para{
+    font-size: 20px;
+}
+
+.why-btn{
+    padding: 0.5em 2em;
+    border-radius: 40px;
+    outline: none;
+    border: none;
+    background: #183336;
+    color: #fff;
+    font-weight: 600;
+    margin-right: 10px;
+}
+
+.why-img{
+    width: 80%;
+    height: auto;
+    margin-left: -20px;
+    margin-bottom: -10px;
+}
+
+/* Products Section */
+
+.products-main{
+    padding: 2em 0;
+    margin: 3em 0;
+    border-top: 3px solid #183336;
+    border-bottom: 3px solid #183336;
 }
 
 /* Token Mechanics Section */
@@ -45,8 +88,12 @@ section{
     background: #fff;
     color: #183336;
     font-size: 28px !important;
-    padding: 0.2em 1em 0em 1em;
+    padding: 0.2em 1em 0em 1.5em;
     margin-bottom: 20px;
     border-radius: 50px;
     font-weight: 700;
+}
+
+.toke-img{
+    width: 70%;
 }
