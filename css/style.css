@@ -5,7 +5,8 @@
 }
 
 html, body{
-
+    overflow-x: hidden;
+    max-width: 100%;
 }
 
 .navbar{
@@ -29,10 +30,12 @@ section{
 
 .hero-head{
     font-size: 100px;
+    color: #fff;
 }
 
 .hero-para{
     font-size: 25px;
+    color: #fff;
 }
 
 .sec-sub{
