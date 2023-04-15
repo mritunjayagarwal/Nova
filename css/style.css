@@ -223,10 +223,11 @@ footer {
 
     .hero-section {
         height: 100%;
+        background: #183336 !important;
     }
 
     .hero-img {
-        margin-top: 70px;
+        margin-top: 30px;
     }
 
     .navbar li {
@@ -291,6 +292,7 @@ footer {
 
     .hero-section {
         height: 100%;
+        background: #183336 !important;
     }
 
     .hero-head {
