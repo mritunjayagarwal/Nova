@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Tomorrow&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tomorrow:wght@700&display=swap');
 
 * {
     margin: 0;
@@ -140,7 +141,11 @@ h1, h2, h3{
     padding: 0.2em 1em 0em 1.5em;
     margin-bottom: 20px;
     border-radius: 50px;
-    font-weight: 700;
+}
+
+.toke-main{
+    font-weight: 900 !important;
+    font-family: 'Tomorrow', sans-serif;
 }
 
 .toke-img {
@@ -201,6 +206,16 @@ footer {
     margin: 2rem;
 }
 
+.highlight{
+    font-weight: 900 !important;
+    font-family: 'Tomorrow', sans-serif;
+    font-size: 40px;
+}
+
+.extra{
+    font-size: 18px;
+}
+
 @media only screen and (max-width: 600px) {
 
     .hero-section{
@@ -232,6 +247,36 @@ footer {
 
     .why-para{
         font-size: 15px;
+    }
+
+    .network-item{
+        font-size: 25px;
+    }
+
+    .network-para{
+        font-size: 15px !important;
+    }
+
+    .toke-main{
+        font-size: 15px;
+    }
+
+    .tokenomic-item {
+        background: #fff;
+        color: #183336;
+        font-size: 28px !important;
+        padding: 0.2em 1em 0em 1em;
+        margin-bottom: 20px;
+        border-radius: 50px;
+    }
+
+    .extra{
+        font-size: 15px;
+    }
+
+    .highlight{
+        font-size: 25px;
+        line-height: 25px;
     }
 }
 @media only screen and (max-width: 1000px) {
