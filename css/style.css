@@ -1,15 +1,19 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Tomorrow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-html, body{
+html,
+body {
     overflow-x: hidden;
     max-width: 100%;
 }
 
-.navbar{
+.navbar {
     background: #183336;
 }
 
@@ -19,42 +23,66 @@ html, body{
     font-weight: 700;
 }
 
-.navbar li a:hover{
+.navbar li a:hover {
     color: rgba(255, 255, 255, 0.8);
     text-decoration: none;
 }
 
-section{
+section {
     padding: 50px 0;
 }
 
-.hero-head{
-    font-size: 100px;
-    color: #fff;
+p{
+    font-family: 'Montserrat', sans-serif;
 }
 
-.hero-para{
+button{
+    font-family: 'Tomorrow', sans-serif;
+}
+
+h1, h2, h3{
+    color: #183336;
+    font-family: 'Tomorrow', sans-serif;
+    font-weight: 700;
+}
+
+.hero-section{
+    position: relative; height: 100vh;padding: 0;
+}
+
+.hero-head {
+    font-size: 80px;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: 5px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.hero-para {
     font-size: 25px;
     color: #fff;
 }
 
-.sec-sub{
+.sec-sub {
     font-size: 18px;
     font-weight: 600;
 }
 
 /* Why Section */
 
-#why{
+#why {
     background: #183336;
     color: #fff;
 }
 
-.why-para{
-    font-size: 20px;
+.why-para {
+    font-size: 18px;
+    color: #183336;
+    font-weight: 600;
+    margin-bottom: 20px
 }
 
-.why-btn{
+.why-btn {
     padding: 0.5em 2em;
     border-radius: 40px;
     outline: none;
@@ -66,35 +94,46 @@ section{
     transition: 0.5s;
 }
 
-.why-btn:hover{
+.why-btn:hover {
     background: #075c65 !important;
     color: #fff !important;
 }
 
-.why-img{
+.why-img {
     width: 80%;
     height: auto;
     margin-left: -20px;
     margin-bottom: -10px;
 }
 
+.network-item{
+    font-size: 30px;
+}
+
+
 /* Products Section */
 
-.products-main{
+.products-main {
     padding: 2em 0 3.5em 0;
     margin: 3em 0;
     border-top: 3px solid #183336;
     border-bottom: 3px solid #183336;
 }
 
+.product-para{
+    font-size: 18px;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
 /* Token Mechanics Section */
 
-#mechanics{
+#mechanics {
     background: #183336;
     color: #fff;
 }
 
-.tokenomic-item{
+.tokenomic-item {
     background: #fff;
     color: #183336;
     font-size: 28px !important;
@@ -104,7 +143,7 @@ section{
     font-weight: 700;
 }
 
-.toke-img{
+.toke-img {
     width: 70%;
 }
 
@@ -135,7 +174,7 @@ footer {
     margin: 20px 0;
 }
 
-.footer-list li a{
+.footer-list li a {
     font-size: 14px;
     text-decoration: none;
     color: #000;
@@ -145,4 +184,69 @@ footer {
     background: #fff;
     padding: 10px 0;
     border-top: 2px solid #183336;
+}
+
+.down-arrow {
+    position: absolute;
+    top: -100px;
+    right: 0;
+    left: -55px;
+    width: 102vw;
+    height: 0;
+    border-left: 600px solid transparent;
+    border-right: 600px solid transparent;
+    z-index: -1;
+    border-top: 600px solid #183336;
+
+    margin: 2rem;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .hero-section{
+        height: 100%;
+    }
+
+    .hero-img{
+        margin-top: 70px;
+    }
+
+    .navbar li{
+        margin: 10px 0;
+    }
+
+    .hero-head{
+        font-size: 35px;
+        margin-top: 50px !important;
+    }
+
+    .hero-para{
+        font-size: 24px;
+    }
+
+    .down-arrow{
+        width: 110vw !important;
+        border-left: 150px solid transparent !important;
+        border-right: 150px solid transparent !important;
+    }
+
+    .why-para{
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width: 1000px) {
+
+    .hero-section{
+        height: 100%;
+    }
+
+    .hero-head{
+        font-size: 45px;
+        margin-top: 50px !important;
+    }
+    .down-arrow{
+        width: 105vw;
+        border-left: 300px solid transparent;
+        border-right: 300px solid transparent;
+    }
 }
