@@ -40,6 +40,7 @@ section{
 
 .sec-sub{
     font-size: 18px;
+    font-weight: 600;
 }
 
 /* Why Section */
@@ -107,49 +108,41 @@ section{
     width: 70%;
 }
 
-/* Footer Section */
+/* footer */
 
 footer {
-    padding: 1em 0 0 0;
-    background: #0d1c1e;
-    border-top: 1px solid #fff;
+    background: rgba(255, 255, 255, 0.8);
+    color: #000 !important;
 }
 
-.footer-logo {
-    width: 30px;
-    height: auto;
-    margin-top: -10px
+.footer-wrapper {
+    padding: 50px 0;
+}
+
+.footer-desc {
+    font-size: 14px;
+}
+
+.footer-list-head {
+    font-size: 14px;
+}
+
+.footer-list {
+    list-style-type: none;
 }
 
 .footer-list li {
-    display: inline;
-    margin: 0 10px;
+    margin: 20px 0;
 }
 
-.footer-list li a {
+.footer-list li a{
+    font-size: 14px;
     text-decoration: none;
-    color: #fff;
-    transition: 0.2s;
+    color: #000;
 }
 
-.footer-list li a:hover {
-    color: pink;
-}
-
-.footer-btn {
-    border-radius: 10px;
-    margin: -10px 10px 5px 10px !important;
-    width: 120px;
-    background: #183336;
-    font-weight: 600;
-    font-size: 15px;
-    outline: none;
-    color: pink;
-    border: 1px solid pink;
-    transition: 0.2s ease-in;
-}
-
-.footer-btn:hover {
+.footer-bottom {
     background: #fff;
-    color: #180D24;
+    padding: 10px 0;
+    border-top: 2px solid #183336;
 }
