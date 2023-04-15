@@ -231,12 +231,12 @@ footer {
     }
 
     .hero-head{
-        font-size: 35px;
+        font-size: 30px !important;
         margin-top: 50px !important;
     }
 
     .hero-para{
-        font-size: 24px;
+        font-size: 21px;
     }
 
     .down-arrow{
