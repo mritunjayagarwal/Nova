@@ -194,6 +194,10 @@ footer {
     border-top: 2px solid #183336;
 }
 
+.tem-logo{
+    display: none;
+}
+
 .down-arrow {
     position: absolute;
     top: -100px;
@@ -220,6 +224,10 @@ footer {
 }
 
 @media only screen and (max-width: 600px) {
+
+    .temp-logo{
+        display: block;
+    }
 
     .hero-section {
         height: 100%;
