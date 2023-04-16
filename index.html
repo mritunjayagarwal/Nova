@@ -13,12 +13,49 @@
     <link rel="stylesheet" href="./css/style.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <style>
+        @media (max-width: 992px) {
+    .navbar-collapse {
+        position: fixed;
+        top: 0px;
+        left: 0;
+        padding-bottom: 15px;
+        width: 75%;
+        height: 100vh !important;
+        background: #183336;
+        border-right: 1px solid #fff;
+        z-index: 99;
+    }
+
+    .navbar li{
+        padding: 10px 0;
+        margin: 0;
+    }
+
+    .navbar li button{
+        width: 90%;
+        margin: 0 15px;
+    }
+
+    .navbar-collapse.collapsing {
+        left: -75%;
+        transition: height 0s ease;
+    }
+
+    .navbar-collapse.show {
+        left: 0;
+        transition: left 300ms ease-in-out;
+    }
+
+    .navbar-toggler.collapsed ~ .navbar-collapse {
+        transition: left 500ms ease-in-out;
+    }
+}
     </style>
 </head>
 
 <body>
 
-    <nav class="navbar navbar-expand-lg py-1 pt-2 m-0">
+    <nav class="navbar navbar-expand-lg navbar-inverse py-1 pt-2 m-0">
         <!-- Container wrapper -->
         <!-- Navbar brand -->
         <a class="navbar-brand me-2" href="#">
@@ -34,6 +71,11 @@
         <!-- Collapsible wrapper -->
         <div class="collapse navbar-collapse text-white" id="navbarText">
             <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a href="#" class="px-3 pt-2 btn-link">
+                        <img src="./img/5.png" style="width: 70px; height: auto;margin-top: -10px; margin-left: -10px"  alt="">
+                    </a>
+                </li>
                 <li class="nav-item">
                     <a href="#" class="px-3 pt-2 btn-link">
                         About
